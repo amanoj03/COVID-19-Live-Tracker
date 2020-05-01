@@ -1,6 +1,6 @@
 # SARS2 nCOV aka CORONAVIRUS 
 
-This Project focuses more on providing the live updates on the COVID pandemic and ensure that there's no panic among the citizens.
+This Project focuses more on providing the live updates on the COVID pandemic and ensures that there's no panic among the citizens.
 
 ## Getting Started
 

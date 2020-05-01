@@ -38,7 +38,7 @@ class _HstateState extends State<Hstate> {
         {
           return AlertDialog(
             backgroundColor: Color(0xFF363636),
-            //shape: RoundedRectangleBorder(),
+           
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.all(Radius.circular(32.0))
             ),
@@ -117,8 +117,7 @@ class _HstateState extends State<Hstate> {
 
 
                 child: Card(
-                //elevation: 10,
-               // child: Padding(padding: EdgeInsets.symmetric(vertical: 10,horizontal: 8),
+                
 
                child: Container(color: Color(0xFF292929),
                  child : Center(

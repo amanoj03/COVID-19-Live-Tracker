@@ -65,7 +65,7 @@ class _IndiaState extends State<India> {
 
                   Text(snapshot.data[index]['loc'],style: TextStyle(
                     fontSize: 16,
-                  //color: Colors.white
+                 
                   color: Theme.of(context).brightness==Brightness.dark?Colors.grey[100]:Colors.grey[900]
                   ),
                   ),
@@ -192,7 +192,7 @@ Widget build(BuildContext context)
 
                 child: Card(
                 elevation: 10,
-               // child: Padding(padding: EdgeInsets.symmetric(vertical: 10,horizontal: 8),
+               
 
                child: Container(color: Color(0xFF292929),
                  child : Center(

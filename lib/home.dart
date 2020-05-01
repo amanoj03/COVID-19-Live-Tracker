@@ -1,9 +1,8 @@
 import 'dart:convert';
-import 'package:ncov/panels/Tindia.dart';
 import 'package:ncov/panels/Hospital.dart';
 import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flutter/material.dart';
-import 'package:ncov/datasorce.dart';
+import 'package:ncov/datasource.dart';
 import 'package:ncov/pages/countyPage.dart';
 import 'package:ncov/panels/infoPanel.dart';
 import 'package:ncov/panels/mosteffectedcountries.dart';
@@ -38,25 +37,6 @@ class _HomePageState extends State<HomePage> {
       countryData = json.decode(response.body);
     });
   }
-  /*
-  navigateToWHO(url) async
-    {
-      if(await canLaunch(url))
-      {
-        await launch(url);
-      }
-      else {
-        Text('Link is not Working $url');
-      }
-    }*/
-    /*
-  navigateToIndia() async
-   {
-       await Navigator.push(context, 
-       MaterialPageRoute(
-         builder: (context) => Tindia()
-         ));
-   }*/
   navigateToIndiaMap() async{
        await Navigator.push(context, 
        MaterialPageRoute(
@@ -126,13 +106,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ],
         ), 
-       /*   Text(
-          'Seventh Erudition COVID-19 Tracker',
-          style: TextStyle(
-            fontSize: 18,
-            color: Colors.white70
-          ),
-        ),*/
+       
       ),
       body: SingleChildScrollView(
           child: Column(
@@ -213,7 +187,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
-                //We have to add extra features here
+               
                 Padding(padding: EdgeInsets.only(top :20.0)),
                 Container(
          child:Row( mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -243,12 +217,12 @@ class _HomePageState extends State<HomePage> {
                 
                  child : Text(
                    "State Statistics",
-                   //"          Indian \n Statewise Statistics",
+                  
                    style: TextStyle(
                      fontSize: 15,
                      color:Colors.white70,
                      fontWeight: FontWeight.bold,
-                     //color: Theme.of(context).brightness==Brightness.dark?Colors.grey[100]:Colors.grey[900]
+                    
                      ),
                      ),
                     ),
@@ -281,7 +255,7 @@ class _HomePageState extends State<HomePage> {
                 
                  child : Text(
                  "National Hospital\n      Statistics",
-                 //"          Indian \n Hospital Statistics",
+               
                  style: TextStyle(
                    fontSize: 15,
                    color:Colors.white70,
@@ -327,7 +301,7 @@ class _HomePageState extends State<HomePage> {
                 
                  child : Text(
                   "State Hospital\n    Statistics",
-                  //"    Indian Hospitals \n Statewise Statistics",
+            
                  style: TextStyle(
                   fontSize: 15,
                   color:Colors.white70,

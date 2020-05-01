@@ -11,7 +11,7 @@ class Hospital extends StatefulWidget {
 }
 
 class _HospitalState extends State<Hospital> {
- // noSuchMethod(Invocation i) => super.noSuchMethod(i);
+ 
 
  final String url = "https://api.rootnet.in/covid19-in/stats/hospitals";
 
@@ -89,7 +89,7 @@ class _HospitalState extends State<Hospital> {
                 
               Text("Total Hospitals ",style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),),
               Text("Total Beds",style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),),
-             // Text("Recoveries",style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold)),
+            
 
               ]) 
               )
@@ -116,7 +116,7 @@ class _HospitalState extends State<Hospital> {
                 
               Text("   ${covid.totalHospitals} ",style: TextStyle(color: Colors.blue, fontSize: 30, fontWeight: FontWeight.bold),),
               Text("     ${ covid.totalBeds}",style: TextStyle(color: Colors.greenAccent, fontSize: 30, fontWeight: FontWeight.bold),),
-              //Text("${covid.discharged}",style: TextStyle(color: Colors.green, fontSize: 30, fontWeight: FontWeight.bold)),
+             
 
               ]
 
@@ -133,7 +133,7 @@ class _HospitalState extends State<Hospital> {
                 
                 Text("Urban Hospitals ",style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),),
               Text("Total Beds",style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),),
-              //Text("${covid.discharged}",style: TextStyle(color: Colors.green, fontSize: 30, fontWeight: FontWeight.bold)),
+             
 
               ]
 
@@ -149,8 +149,7 @@ class _HospitalState extends State<Hospital> {
                 
               Text("   ${covid.urbanHospitals} ",style: TextStyle(color: Colors.blue, fontSize: 30, fontWeight: FontWeight.bold),),
               Text("      ${covid.urbanBeds}",style: TextStyle(color: Colors.greenAccent, fontSize: 30, fontWeight: FontWeight.bold),),
-              //Text("${covid.discharged}",style: TextStyle(color: Colors.green, fontSize: 30, fontWeight: FontWeight.bold)),
-
+              
               ]
 
               ) )
@@ -168,8 +167,7 @@ class _HospitalState extends State<Hospital> {
                 
               Text("Rural Hospitals ",style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),),
               Text("Total Beds",style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),),
-             // Text("Recoveries",style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold)),
-
+             
               ]) 
               )
             ),
@@ -184,7 +182,7 @@ class _HospitalState extends State<Hospital> {
                 
               Text("   ${covid.ruralHospitals} ",style: TextStyle(color: Colors.blue, fontSize: 30, fontWeight: FontWeight.bold),),
               Text("      ${covid.ruralBeds}",style: TextStyle(color: Colors.greenAccent, fontSize: 30, fontWeight: FontWeight.bold),),
-              //Text("${covid.discharged}",style: TextStyle(color: Colors.green, fontSize: 30, fontWeight: FontWeight.bold)),
+              
 
               ]
 

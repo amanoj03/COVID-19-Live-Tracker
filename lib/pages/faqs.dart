@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ncov/datasorce.dart';
+import 'package:ncov/datasource.dart';
 
 class FAQPage extends StatelessWidget {
   @override

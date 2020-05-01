@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ncov/datasorce.dart';
+import 'package:ncov/datasource.dart';
 import 'package:ncov/pages/faqs.dart';
 import 'package:url_launcher/url_launcher.dart';
 
